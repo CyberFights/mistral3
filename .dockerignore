@@ -1,0 +1,10 @@
+# Keep the build context to what the image needs (package.json and src/).
+.git
+.github
+node_modules
+test
+*.md
+
+# Secrets never go into an image. Keys are given as variables at run time.
+.env
+.env.*

@@ -1,0 +1,15 @@
+{
+  "name": "mistral3-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An OpenAI-compatible endpoint, protected by your own key, in front of Mistral's hosted Mistral Large 3. Built to deploy on Railway.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "check": "node scripts/check.js"
+  }
+}

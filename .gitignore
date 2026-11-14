@@ -1,0 +1,8 @@
+# Local secrets. Only the empty template (.env.example) belongs in Git.
+.env
+.env.*
+!.env.example
+
+node_modules/
+npm-debug.log*
+.DS_Store
